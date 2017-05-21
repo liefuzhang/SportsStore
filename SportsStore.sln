@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AAE14E36-E6CF-40CF-8C4D-C0D5788B862F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96F169A7-126A-4E4F-A647-06CF62D2DC63}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore", "src\SportsStore\SportsStore.xproj", "{984D21D7-9F4A-4305-8F1C-6845CF788F84}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{20C3687A-1E06-4DD2-B6C2-14B4A44DF2DF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SportsStore.Tests", "SportsStore.Tests\SportsStore.Tests.xproj", "{98DF2720-ADE2-49A6-A13F-929D1E639CB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{984D21D7-9F4A-4305-8F1C-6845CF788F84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{984D21D7-9F4A-4305-8F1C-6845CF788F84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{984D21D7-9F4A-4305-8F1C-6845CF788F84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{984D21D7-9F4A-4305-8F1C-6845CF788F84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DF2720-ADE2-49A6-A13F-929D1E639CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DF2720-ADE2-49A6-A13F-929D1E639CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DF2720-ADE2-49A6-A13F-929D1E639CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DF2720-ADE2-49A6-A13F-929D1E639CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{984D21D7-9F4A-4305-8F1C-6845CF788F84} = {AAE14E36-E6CF-40CF-8C4D-C0D5788B862F}
+		{98DF2720-ADE2-49A6-A13F-929D1E639CB7} = {20C3687A-1E06-4DD2-B6C2-14B4A44DF2DF}
+	EndGlobalSection
+EndGlobal
